@@ -1,0 +1,133 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AL-AMeer Car Services</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <img src="logo.png" alt="Logo" class="logo-img">
+
+        <div class="logo">
+            AL-AMeer
+            <small>we care your <span>Car</span></small>
+        </div>
+
+        <nav>
+            <a href="#"><span>Home</span></a>
+            <a href="#services">Service</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#contact">Contact Us</a>
+            <button type="button">Sign in</button>
+        </nav>
+    </header>
+
+    <section class="hero" id="gallery">
+        <div>
+            <h1>Best Car services<br>in the town</h1>
+            <button type="button" onclick="changeCar()">Show more</button>
+        </div>
+
+        <img id="heroImg" src="bluecar.png" alt="Car">
+    </section>
+
+    <h2 id="services">Our Services</h2>
+
+    <section class="services">
+
+        <div class="service">
+            <div>
+                <img src="InteriorWashing.png" alt="Interior Washing">
+                <b>Interior Washing</b>
+                <button type="button" onclick="book(this)">Book Now</button>
+                <p>3 Appointment Available</p>
+            </div>
+        </div>
+
+        <div class="service">
+            <div>
+                <img src="SeatsWashing.png" alt="Seats Washing">
+                <b>Seats Washing</b>
+                <button type="button" onclick="book(this)">Book Now</button>
+                <p>3 Appointment Available</p>
+            </div>
+        </div>
+
+        <div class="service">
+            <div>
+                <img src="OilChanging.png" alt="Oil Changing">
+                <b>Oil Changing</b>
+                <button type="button" onclick="book(this)">Book Now</button>
+                <p>3 Appointment Available</p>
+            </div>
+        </div>
+
+        <div class="service">
+            <div>
+                <img src="VacuumCleaning.png" alt="Vacuum Cleaning">
+                <b>Vacuum Cleaning</b>
+                <button type="button" onclick="book(this)">Book Now</button>
+                <p>3 Appointment Available</p>
+            </div>
+        </div>
+
+        <div class="service">
+            <div>
+                <img src="ExteriorWashing.png" alt="Exterior Washing">
+                <b>Exterior Washing</b>
+                <button type="button" onclick="book(this)">Book Now</button>
+                <p>3 Appointment Available</p>
+            </div>
+        </div>
+
+        <div class="service">
+            <div>
+                <img src="BrakeReparing .png" alt="Brake Repairing">
+                <b>Brake Repairing</b>
+                <button type="button" onclick="book(this)">Book Now</button>
+                <p>3 Appointment Available</p>
+            </div>
+        </div>
+
+    </section>
+
+    <h2>What our clients say</h2>
+
+    <section class="client">
+        <img id="clientImg" src="unstisfied.png" alt="Client">
+
+        <div class="client-content">
+            <p id="text">
+                My experience at the car wash was disappointing.
+                The cleaning was superficial and some spots remained.
+            </p>
+
+            <p id="moreText"></p>
+
+            <button
+                type="button"
+                id="readMoreBtn"
+                onclick="readMore()">
+                Read more
+            </button>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <span>Axsis Academy</span>
+
+        <div>
+            <img src="whatsapp-logo.avif" alt="WhatsApp">
+            <img src="linkedin-logo.avif" alt="LinkedIn">
+            <img src="email-logo.jpg" alt="Email">
+            <img src="instagram-logo.png" alt="Instagram">
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
